@@ -1,0 +1,19 @@
+
+
+  
+
+.deleteFoto{
+  
+    z-index: 2000;
+    position: absolute;
+    right: 0px;
+    cursor: pointer;
+    display: none;
+}
+
+
+.cardDoctor:hover .deleteFoto{
+    color:red;
+    display: flex;
+    
+}

@@ -1,0 +1,40 @@
+.custom-scroll {
+    /* Scroll bar rengi */
+    scrollbar-color: red;
+  
+    /* Scroll bar genel stil */
+    scrollbar-width: thin;
+  }
+  
+  .custom-scroll::-webkit-scrollbar {
+    /* Scroll bar genel stil */
+    width: 6px;
+  }
+  
+  .custom-scroll::-webkit-scrollbar-track {
+    /* Scroll bar arka plan rengi */
+    background-color: #f1f1f1;
+  }
+  
+  .custom-scroll::-webkit-scrollbar-thumb {
+    /* Scroll bar başparmak rengi */
+    background-color: #214fa0;
+  }
+  .breadcrumb-item {
+    text-decoration: none !important; /* Remove underline */
+    color: #000 !important; /* Set custom color */
+    cursor: default; /* Remove link cursor */
+  }
+  
+  .breadcrumb-item.active {
+    color: #000 !important; /* Set custom color for active item */
+    cursor: default; /* Remove link cursor */
+    text-decoration: none !important; /* Remove underline for active item */
+  }
+  .gradient-text-breadCrumb{
+  
+      background: linear-gradient(to left, rgb(0, 213, 255), rgb(243, 80, 80));
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+ 

@@ -1,0 +1,50 @@
+#containermaps {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 50%; 
+  }
+ 
+  .navtabbarhospital{
+    color:  #006699
+  }
+  .navtabbarhospital:hover
+  {
+    background-color: #46b2e5;
+    color:white;
+    border-radius:10px
+  }
+.doktorListChat:hover{
+   
+  background-color: #46b2e5;
+  color:white
+}
+
+
+  .custom-scroll {
+    /* Scroll bar rengi */
+    scrollbar-color: red;
+  
+    /* Scroll bar genel stil */
+    scrollbar-width: thin;
+  }
+  
+  .custom-scroll::-webkit-scrollbar {
+    /* Scroll bar genel stil */
+    width: 6px;
+  }
+  
+  .custom-scroll::-webkit-scrollbar-track {
+    /* Scroll bar arka plan rengi */
+    background-color: #f1f1f1;
+  }
+  
+  .custom-scroll::-webkit-scrollbar-thumb {
+    /* Scroll bar başparmak rengi */
+    background-color: #214fa0;
+  }
+
+  .doktorListChat.active {
+    background-color: #46b2e5;
+    color:white
+  }

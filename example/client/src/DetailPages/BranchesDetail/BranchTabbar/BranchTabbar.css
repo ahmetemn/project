@@ -1,0 +1,7 @@
+.sendmessageplane:hover{
+    color:red
+}
+
+.sendmessageplane{
+    cursor: pointer;
+}

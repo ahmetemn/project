@@ -1,0 +1,85 @@
+#app { height: 100% }
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+@media screen and (max-width: 600px) {
+  .cardplastic{
+
+    max-height: 50px;
+  
+  }
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.cardgynologicalsurgery:hover {
+  transform: scale(1.03); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  box-shadow: rgba(246, 36, 89, 0.8)0px 2px 14px 0px;
+  
+}
+
+.write{
+
+
+  writing-mode: vertical-rl; 
+  
+  transform: rotate(180deg);
+
+}
+
+
+
+.cardgynologicalsurgery{
+
+  
+  box-shadow: rgba(52,152,219, 0.8) 0px 2px 14px 0px;
+  min-height: 300px;
+  border:1;
+  margin-bottom:45px;
+  cursor:pointer
+
+
+}
+

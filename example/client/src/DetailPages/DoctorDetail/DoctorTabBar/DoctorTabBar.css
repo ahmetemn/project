@@ -1,0 +1,27 @@
+#containermaps {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 50%; 
+  }
+  
+  .responsive-iframe {
+ 
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  .navtabbarhospital{
+    color: #16a085
+  }
+  .navtabbarhospital:hover
+  {
+    background-color: #46b2e5;
+    color:white;
+    border-radius:10px
+  }

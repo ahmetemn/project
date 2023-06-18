@@ -1,0 +1,217 @@
+#app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.inputgrup {
+  height: 65px;
+  margin-bottom: 7rem;
+}
+.selectonslider {
+  max-width: 100px;
+  border-radius: 25px;
+  border: none;
+}
+
+.logosliderimg {
+  width: 160px;
+  position: fixed;
+  border-radius: 0px 0px 10px 10px;
+  z-index: 9000;
+  height: 90px;
+  top: -1.6rem;
+}
+
+.sliderfoto {
+  width: 100%;
+  height: 100vh;
+}
+.sliderüstüyazı {
+  animation: mymove 3s;
+  top: 350px;
+}
+.sliderüstüyazı2 {
+  animation: mymove2 4s;
+  top: 420px;
+}
+
+.yazi1 {
+  font-size: 50px;
+  color: rgb(112, 78, 255);
+  font-family: Impact;
+  animation-timing-function: linear;
+}
+
+@keyframes mymove {
+  from {
+    left: 100px;
+  }
+  to {
+    left: 228px;
+  }
+}
+
+.yazi2 {
+  font-size: 50px;
+  color: rgb(67, 125, 0);
+  left: 0px;
+  font-family: Helvetica;
+  animation-timing-function: ease-out;
+}
+@keyframes mymove2 {
+  from {
+    left: 100px;
+  }
+  to {
+    left: 228px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .yazi2 {
+    font-size: 45px;
+    animation-timing-function: linear;
+  }
+
+  .yazi1 {
+    font-size: 43px;
+    animation-timing-function: linear;
+  }
+  @keyframes mymove {
+    from {
+      left: 0px;
+    }
+    to {
+      left: 50px;
+    }
+  }
+  @keyframes mymove2 {
+    from {
+      left: 0px;
+    }
+    to {
+      left: 25px;
+    }
+  }
+
+  .inputgrup {
+    width: 100%;
+    height: 40px;
+    top: 5rem;
+  }
+
+  .sliderüstüyazı {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+    margin-bottom: 18rem;
+  }
+  .sliderüstüyazı2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 6rem;
+  }
+
+  .logosliderimg {
+    width: 160px;
+    position: fixed;
+    border-radius: 0px 0px 10px 10px;
+    z-index: 9000;
+    height: 90px;
+    top: -1.6rem;
+  }
+  .sliderfoto {
+    width: auto;
+    height: 45rem;
+  }
+}
+
+.inputarama{
+   display: none;
+}
+ .inputarama.active {
+   display: flex;
+}
+.carousel.active {
+   display: flex;
+   align-items: center;
+   height: 100vh;
+   animation: slide-up 0.5s ease-out;
+   animation-fill-mode: forwards;
+   opacity: 0;
+}
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.searchText{
+   color:black
+}
+.searchText:hover{
+  color:orange
+
+}
+.searchRow{
+
+  background-image: linear-gradient(to right, rgb(197, 239, 247), rgb(255,255,255))
+}
+.searchRow.searchText:hover{
+  transform: scale(1.02); 
+}
+
+
+
+

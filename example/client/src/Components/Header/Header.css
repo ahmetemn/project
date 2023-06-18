@@ -1,0 +1,66 @@
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: aliceblue;
+}
+
+.dropbtn {
+  background-color: white;
+  color: white;
+  padding: 10px;
+
+  border-radius: 5px;
+  border: none;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  right: 50%; /* Sağa doğru 100% yerleşim */
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 6px 8px;
+  text-decoration: none;
+  display: block;
+}
+
+.loginicon {
+  color: white;
+}
+#icon1:hover {
+  color: #90e0ff;
+}
+
+.messageicon:hover {
+  color: #90e0ff;
+  cursor: pointer;
+}
+#nav {
+  display: flex;
+  justify-content: center;
+  
+  margin-top: 25px;
+  flex-grow: 1;
+  margin-left: 150px;
+  z-index: 8000;
+}
+@media screen and (max-width: 600px) {
+  #nav {
+    margin-left: 0px;
+  }
+}
+
+/* Navbar'ın varsayılan stilini ayarlayın */
+

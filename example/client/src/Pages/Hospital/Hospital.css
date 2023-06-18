@@ -1,0 +1,68 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+
+  .hospitallist:hover{
+
+    transform: scale(1.01);
+          
+  }
+  .hospitalsliderfoto{
+
+    width:100%;
+    height:50vh
+  }
+  
+@media screen and (max-width: 600px) {
+  .hospitalsliderfoto{
+
+  
+    width:100w;
+    height:20vh;
+  }
+}
+
+
+
+
+
+.brancheslsliderfoto{
+
+  width:100%;
+  height:50vh
+}
+
+@media screen and (max-width: 600px) {
+.brancheslsliderfoto{
+
+
+  width:100w;
+  height:20vh;
+}
+}
+
+.branchescard:hover{
+  background-color:aliceblue;
+  transform: scale(1.1);
+
+}
+
+@media screen and (max-width: 600px) {
+}
+.cardDoctor {
+  min-width: 17.8rem;
+  max-width: 17rem;
+  height: 100%;
+}
+
+.cardDoctor .card-body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cardDoctor .card-img-top {
+  object-fit: cover;
+}

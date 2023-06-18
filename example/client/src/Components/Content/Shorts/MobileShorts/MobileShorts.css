@@ -1,0 +1,37 @@
+
+  
+@media screen and (max-width: 600px) {
+    .kardlarınkartı {
+      display:flex
+    }
+  }
+  @media screen and (min-width: 1200px ) {
+      .kardlarınkartı {
+
+
+                    display:none
+      }
+    }
+      
+  @media screen and (min-width: 800px ) {
+    .kardlarınkartı {
+
+
+                  display:none
+    }
+  }
+  
+    .mobilesliderkart{
+  
+  
+      Z-Index:1000;
+      position: -webkit-sticky;
+     
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      margin-top:-20rem;
+  
+      
+    }

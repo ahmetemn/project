@@ -1,0 +1,73 @@
+
+.basit{
+    background-color: blue;
+    border-radius: 100px;
+    width:50px;
+    height:50px;
+    }
+    
+    /* Make it looks good on CodePen */
+
+
+  
+  /* Prevent scrollbars to appear when waves go out of bound */
+  .sonar-wrapper {
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    padding: 2rem 0;
+  }
+  
+  /* The circle */
+  .sonar-emitter {
+    position: relative;
+    margin: 0 auto;
+    width: 45px;
+    height: 45px;
+    border-radius: 9999px;
+    background-color:#46b2e5
+  }
+
+ 
+
+  /* the 'wave', same shape and size as its parent */
+  .sonar-wave {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 9999px;
+    background-color: orange;
+    opacity: 0;
+    z-index: -1;
+    pointer-events: none;
+  }
+  
+  /*
+    Animate!
+    NOTE: add browser prefixes where needed.
+  */
+  .sonar-wave {
+    animation: sonarWave 2s linear infinite;
+  }
+  
+  @keyframes sonarWave {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      transform: scale(3);
+      opacity: 0;
+    }
+  }
+  .cizgi{
+     display: flex;
+  }
+  @media screen and (max-width: 600px) {
+    .cizgi {
+      display:none
+    }
+  }
+
+

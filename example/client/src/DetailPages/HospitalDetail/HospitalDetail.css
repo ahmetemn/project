@@ -1,0 +1,25 @@
+
+@media screen and (max-width: 600px) {
+   
+  }
+
+
+  .resim-container {
+    width: 100%;
+    height: 320px;
+    background-image: url('https://medipol.com.tr/medium/Hospital-HomePageImage-427.vsf');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+  
+
+    background-position:  center ;
+  }
+
+  .logo{
+    width: 100%;
+    height: 15rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
